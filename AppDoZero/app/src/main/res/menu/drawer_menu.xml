@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemLista"
+        android:title="Lista de Pessoas" />
+    <item
+        android:id="@+id/itemUm"
+        android:title="Fragmento 1" />
+    <item
+        android:id="@+id/itemDois"
+        android:title="Fragmento 2" />
+    <item
+        android:id="@+id/itemTres"
+        android:title="Fragmento 3" />
+</menu>
