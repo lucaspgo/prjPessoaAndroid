@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appdozero">
+    package="com.example.app">
 
     <application
         android:allowBackup="true"
@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.example.app.LoginActivity">
         </activity>
 
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.app.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +21,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SobreActivity"
-            android:parentActivityName=".MainActivity" />
+        <activity android:name="com.example.app.SobreActivity"
+            android:parentActivityName="com.example.app.MainActivity" />
+
 
     </application>
-
 
 </manifest>

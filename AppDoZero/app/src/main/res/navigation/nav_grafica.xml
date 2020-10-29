@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/listaDePessoasFragment"
-        android:name="com.example.appdozero.ui.ListaDePessoasFragment"
+        android:name="com.example.app.ui.ListaDePessoasFragment"
         android:label="lista_de_pessoas"
         tools:layout="@layout/lista_de_pessoas" >
         <action
@@ -16,22 +16,22 @@
     </fragment>
     <fragment
         android:id="@+id/pessoaFragment"
-        android:name="com.example.appdozero.ui.PessoaFragment"
+        android:name="com.example.app.ui.PessoaFragment"
         android:label="pessoa_fragment"
         tools:layout="@layout/pessoa_fragment" />
     <fragment
         android:id="@+id/fragmento1"
-        android:name="com.example.appdozero.Fragmento1"
-        android:label="fragment_1"
-        tools:layout="@layout/fragment_1" />
+        android:name="com.example.app.Fragmento1"
+        android:label="fragmento_1"
+        tools:layout="@layout/fragmento_1" />
     <fragment
         android:id="@+id/fragmento2"
-        android:name="com.example.appdozero.Fragmento2"
-        android:label="fragment_2"
-        tools:layout="@layout/fragment_2" />
+        android:name="com.example.app.Fragmento2"
+        android:label="fragmento_2"
+        tools:layout="@layout/fragmento_2" />
     <fragment
         android:id="@+id/fragmento3"
-        android:name="com.example.appdozero.Fragmento3"
-        android:label="fragment_3"
-        tools:layout="@layout/fragment_3" />
+        android:name="com.example.app.Fragmento3"
+        android:label="fragmento_3"
+        tools:layout="@layout/fragmento_3" />
 </navigation>
